@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ECAMPOSAPP-WATSON
+  host: ECAMPOSAPP-WATSON
+  disk_quota: 1024M
+  services:
+  - ECAMPOSAPP-WATSON-personality_insights
